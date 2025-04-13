@@ -2,8 +2,7 @@ name: GettingStarted_Container_Workflow
 on:
   push:
     branches:
-      
-main
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
